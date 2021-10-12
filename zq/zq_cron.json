@@ -3,7 +3,7 @@
   "desc": "无",
   "date": "2021-08-05 20:32:08",
   "author": "https://t.me/ShaolinTemple1",
-  "resource": "https://raw.githubusercontent.com/webye/js_scripts/main/zq/zq_cron.json",
+  "resource": "https://ghproxy.com/https://raw.githubusercontent.com/webye/js_scripts/main/zq/zq_cron.json",
   "list": [
     {
       "name": "中青签到",
@@ -11,17 +11,17 @@
       "time": "15 2 * * *",
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/webye/js_scripts/main/zq/zqqd.js"
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/webye/js_scripts/main/zq/zqqd.js -local"
       }
     },
     {
       "name": "中青文章",
       "type": "cron",
-      "time": "30 7,12,18 * * *",
+      "time": "30 5,13,17 * * *",
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/webye/js_scripts/main/zq/zqwz.js"
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/webye/js_scripts/main/zq/zqwz.js -local"
       }
     },
     {
@@ -31,7 +31,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/webye/js_scripts/main/zq/zqkkz.js"
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/webye/js_scripts/main/zq/zqkkz.js -local"
       }
     },
     {
@@ -41,7 +41,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/webye/js_scripts/main/zq/zq_share.js"
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/webye/js_scripts/main/zq/zq_share.js -local"
       }
     },
     {
@@ -51,7 +51,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/webye/js_scripts/main/zq/zq_Adv_video.js"
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/webye/js_scripts/main/zq/zq_Adv_video.js -local"
       }
     },
     {
@@ -61,7 +61,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/webye/js_scripts/main/zq/zqbox.js"
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/webye/js_scripts/main/zq/zqbox.js -local"
       }
     },
     {
@@ -71,8 +71,8 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/webye/js_scripts/main/zq/zq_today_score.js"
-      }
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/webye/js_scripts/main/zq/zq_today_score.js -local"
+        }
     },
     {
       "name": "中青好友签到红包",
@@ -81,7 +81,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/webye/js_scripts/main/zq/zq_friendSign.js"
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/webye/js_scripts/main/zq/zq_friendSign.js -local"
       }
     },
     {
@@ -91,7 +91,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/webye/js_scripts/main/zq/zq_Rotary.js"
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/webye/js_scripts/main/zq/zq_Rotary.js -local"
       }
     },
     {
@@ -101,7 +101,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/webye/js_scripts/main/zq/zq_wakeup.js"
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/webye/js_scripts/main/zq/zq_wakeup.js -local"
       }
     },
     {
@@ -111,7 +111,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/webye/js_scripts/main/zq/zqssz.js"
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/webye/js_scripts/main/zq/zqssz.js -local"
       }
     },
     {
@@ -121,7 +121,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/webye/js_scripts/main/zq/zqllz.js"
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/webye/js_scripts/main/zq/zqllz.js -local"
       }
     },
     {
@@ -131,7 +131,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/webye/js_scripts/main/zq/zq_double.js"
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/webye/js_scripts/main/zq/zq_double.js -local"
       }
     },
     {
@@ -141,7 +141,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/webye/js_scripts/main/zq/zq_withdraw.js"
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/webye/js_scripts/main/zq/zq_withdraw.js -local"
       }
     }
 
