@@ -17,7 +17,7 @@
     {
       "name": "中青文章",
       "type": "cron",
-      "time": "30 5,13,17 * * *",
+      "time": "43 5,13,17 * * *",
       "running": true,
       "job": {
         "type": "runjs",
@@ -37,7 +37,7 @@
     {
       "name": "中青火爆转发",
       "type": "cron",
-      "time": "15 6,12,18 * * *",
+      "time": "25 7,12,20 * * *",
       "running": true,
       "job": {
         "type": "runjs",
@@ -77,7 +77,7 @@
     {
       "name": "中青好友签到红包",
       "type": "cron",
-      "time": "15 7 * * *",
+      "time": "15 10 * 15* *",
       "running": true,
       "job": {
         "type": "runjs",
@@ -107,7 +107,7 @@
     {
       "name": "中青搜索赚",
       "type": "cron",
-      "time": "35 5 * * *",
+      "time": "35 11 * * *",
       "running": true,
       "job": {
         "type": "runjs",
@@ -117,7 +117,7 @@
     {
       "name": "中青浏览赚",
       "type": "cron",
-      "time": "34 6 * * *",
+      "time": "34 15 * * *",
       "running": true,
       "job": {
         "type": "runjs",
@@ -127,7 +127,7 @@
     {
       "name": "中青阅读翻倍",
       "type": "cron",
-      "time": "34 5 * * 1",
+      "time": "34 8 * * 1",
       "running": true,
       "job": {
         "type": "runjs",
